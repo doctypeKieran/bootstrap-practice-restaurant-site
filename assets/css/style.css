@@ -1,0 +1,15 @@
+/* Google Font Imports */
+
+/* General Styles */
+
+/* Header/Nav */
+
+a.btn {
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: left;
+}
+
+.navbar-nav .nav-link {
+    width: fit-content;
+}
