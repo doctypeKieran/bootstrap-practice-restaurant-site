@@ -84,3 +84,20 @@ nav.navbar.navbar-light {
     font-size: 32px;
     margin-right: 10px;
 }
+
+/* MAIN CONTENT */
+
+/* Home page image */
+
+.home-img-container {
+    background-image: url("../media/images/TheOrange-July22-LowRes-5-575x1024.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+}
+
+/* Home page menu */
+.home-menu {
+    height: 25vh;
+    background-color: rgb(152, 191, 203);
+}
