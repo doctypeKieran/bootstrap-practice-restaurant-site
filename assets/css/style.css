@@ -1,6 +1,10 @@
 /* Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;900&display=swap');
 
 /* General Styles */
+* {
+    font-family: "Fira Sans", sans-serif;
+}
 
 /* Header/Nav */
 
@@ -10,6 +14,28 @@ a.btn {
     text-align: left;
 }
 
+.navbar {
+    position: relative;
+}
+
+.navbar .navbar-toggler {
+    z-index: 99;
+}
+
+.navbar-nav {
+    background-color: rgb(152, 191, 203);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar-light #nav-menu .nav-link {
+    color: #fafafa;
+}
 .navbar-nav .nav-link {
     width: fit-content;
+    font-weight: 700;
 }
