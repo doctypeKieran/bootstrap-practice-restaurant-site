@@ -97,7 +97,50 @@ nav.navbar.navbar-light {
 }
 
 /* Home page menu */
-.home-menu {
+.home-menu-container {
     height: 25vh;
     background-color: rgb(152, 191, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid #fafafa;
+    border-bottom: 2px solid #fafafa;
+    padding: 16px 0;
+}
+
+.home-menu-link {
+    color: #fafafa;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+/* Carousel section */
+.carousel-section {
+    padding: 24px;
+}
+.carousel-container {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container .carousel-flex-link {
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    text-decoration: none;
+    height: fit-content;
+}
+.carousel-container .carousel-flex-link h2 {
+    font-size: 27px;
+    font-weight: 900;
 }
