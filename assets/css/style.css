@@ -6,10 +6,6 @@
     font-family: "Fira Sans", sans-serif;
 }
 
-main {
-    margin-top: 60px;
-}
-
 /* Header/Nav */
 
 a.btn {
@@ -28,7 +24,7 @@ nav.navbar.navbar-light {
 
 /* Button */
 .navbar .navbar-toggler {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 99;
